@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Do we Need this??????????-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19389139-1">
+	</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-19389139-1');
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Butlercc Webhosting">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">  
+    <!-- Figure out if I want to keep the font-awesome stuff -->
+    <link rel="stylesheet" href="/font-awesome-4.2.0/css/font-awesome.css"> 
+    
+</head>
+
+<body>
+
+<header>
+	<nav>	
+		<ul>
+			<li><a href="home.php">Home</a></li>
+			<li><a href=""></li>
+			<li><a href=""></li>
+			<li><a href=""></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+
+	<!-- Needs to have a h2 or something-->
+	<p>Embedding web fonts with the @font-face rule allows you to link to real fonts on your server, or the server of a font-embedding service rather than resorting to font-replacement technqiues like using images, Flash, and scrpting to create text. This method is not only easier and less work intensive, but also does not negatively impact accessibility or usability.</p>
+
+	<h3>Acceptable Fonts and Resources</h3>
+
+	<p>There are two issues you need to consider when choosing web fonts.</p>
+		<ol>
+			<li>Choose fonts that look good displayed on the web. Many fonts created for print purposes are not legible on the web.</li>
+			<li>Choose fonts with licenses that eplicityly allow web embedding or redistribution. Be sure to read the end-user license agreement (EULA); many fonts, including free ones, do not allow web embedding or redistribution.</li>
+		</ol>
+	
+	<p>Use the following resources to find acceptable fonts:</p>
+
+		<ul>
+			<li><a href="https://www.fontsquirrel.com/" target="_blank">Font Squirrel @Font-Face Webfont Kits</a> - Webfont Kits include TTF, EOT, WOFF, and SVG formats along with sample .html and .css files. <strong>Update:</strong> Web Open Font Format (WOFF) is now the standard and works in all modern browsers, making it the only format needed.</li>
+    		<li><a href="https://fonts.google.com/" target="_blank">Google Font Directory</a> is a library of free web fonts. Find one you like and  link to it using the Google Fonts API .</li>
+			<li><a href="https://www.theleagueofmoveabletype.com/" target="_blank">The League of Moveable Type</a> is a small collection of free, open-source fonts licensed for font embedding.</li>
+			<li><a href="https://www.fonthead.com/" target="_blank">Fonthead</a> - All fonts can be embedded but most are not free.</li>
+		</ul>
+
+	<h3>Example 1: Self-Hosted Web Font</h3>
+
+	<!--I need to donwload these fonts-->
+
+	{% comment %} <p>On this page, I used the DroidSansBold font that I downloaded as a kit (droid-sans-fontfacekit.zip) from Font Squirrel. Examples in these instructions refer to this font.</p> {% endcomment %}
+
+	<ol>
+    <li>Go to <a href="https://www.fontsquirrel.com/" target="_blank">Font Squirrel</a> and search for an appropriate font. Use the filters (right column) to limit results for a specific use.<br>
+      <strong>NOTE:</strong> Due to current licensing issues, not all fonts have a downloadable webfont kit. </li>
+    <li>Click on the desired font sample to view font specimens, related information, and to access the Webfont kit..<br>
+      <img src="/support/webfont-kit.jpg" alt="webfont kit screenshot"/>
+    </li>
+
+	{% comment %} CONTINUE HERE {% endcomment %}
+
+
+</main>

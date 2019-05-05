@@ -69,17 +69,19 @@ font-weight:normal;
     </div>
   </header> -->
 
-  <div id="main">
-<p><a href="/index.php">Home</a> &gt; <a href="/support/index.php">Tutorials and Resources</a> &gt; How to Embed  Web Fonts</p>
+
+  <!-- Need to figure out what to do with the header here -->
+  <!-- <div id="main"> -->
+<!-- <p><a href="/index.php">Home</a> &gt; <a href="/support/index.php">Tutorials and Resources</a> &gt; How to Embed  Web Fonts</p> -->
 <article>
-<header>
+<!-- <header>
   <h2>How to Embed  Web Fonts</h2>
   <p>By B Lingafelter&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar"></i>&nbsp;
         <time datetime="2011-09-18">Sep 18, 2011</time>
         &nbsp;&nbsp;&nbsp;
         <i class="fa fa-tags"></i>&nbsp;CSS, typography
         </p>
-      </header>
+      </header> -->
   <p>Embedding web fonts with the @font-face rule allows you to link to real fonts on your server, or the server of a font-embedding service rather than resorting to font-replacement technqiues like using images, Flash, and scrpting to create text. This method is not only easier and less work intensive, but also does not negatively impact accessibility or usability.</p>
   <h3>Acceptable Fonts and Resources</h3>
   <p>There are two issues you need to consider when choosing web fonts. </p>

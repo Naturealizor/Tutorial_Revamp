@@ -68,7 +68,7 @@ include ('header.php')
     </div>
   </header> -->
 
-  <div id="main">
+  <!-- <div id="main"> -->
     <h2> ButlerCC WebDevelopment Sandbox</h2>
     <p>Whether you've created a simple static website or developed a dynamic site using client-side webscripting, a Content Management System, or custom server-side programming, understanding how to upload your work to a webserver and share it with the public is an important part of the web development process. Additionally, web developers must  understand server configuration, behavioral differences in development and production environments, optimization techniques, and how to test accessibility, responsiveness, and site performance in the real world.</p>
 
@@ -82,7 +82,12 @@ include ('header.php')
 
 
     <h3 id="ftp">How Do I Upload  My Files? </h3>
-    <p>You can use any FTP program, like <a href="/support/filezilla_tutorial.html">Filezilla</a>, the <a href="/support/fireftp_tutorial.html">FireFTP</a> Firefox extension, or even <a href="/support/publishing.html">Dreamweaver</a> to upload  files to your account. Your instructor will walk you through this process in class. But just in case you forget, refer to the settings below, or review one of our  brief tutorials.</p>
+    <p>You can use any FTP program, like 
+    <!-- These links need to re worked in V2 -->
+    <a href="/support/filezilla_tutorial.html">Filezilla</a>, 
+    the <a href="/support/fireftp_tutorial.html">FireFTP</a>
+    Firefox extension, or even <a href="/support/publishing.html">Dreamweaver</a>
+    to upload  files to your account. Your instructor will walk you through this process in class. But just in case you forget, refer to the settings below, or review one of our  brief tutorials.</p>
 
     
     <h4>FTP Settings:</h4>
@@ -94,16 +99,26 @@ include ('header.php')
     </ol>
     <h3>What Is My URL?</h3>
     <p>Once you have uploaded files to your subdomain, point your browser to your subdomain. Your URL will look like this one except you'll enter your assigned subdomain: <strong>http://yoursubdomain.butlerccwebdev.net/</strong> - Your index page (index.html or index.php)  will be returned by the web server.</p>
-    <h3><a href="/support/index.php">Web Developer Tutorials and Resources</a></h3>
-    <p>New tutorials and resources are continually added to the support section of this site. Some of our most popular resources are listed below. If you don't see what you need, check out the <a href="/support/index.php">full list of  tutorials and resources</a>.</p>
-    <ul>
+    
+    <!--FIX LINK -->
+    <h3>
+    <a href="/support/index.php">Web Developer Tutorials and Resources</a>
+    </h3>
+    
+    <p>New tutorials and resources are continually added to the support section of this site. Some of our most popular resources are listed below. If you don't see what you need, check out the 
+    
+    <!--FIX LINK -->
+    <a href="/support/index.php">full list of  tutorials and resources</a>
+    
+    .</p>
+    <!-- <ul>
       <li><a href="/support/filezilla_tutorial.html">FileZilla Tutorial</a> - Install and use FileZilla to upload your web site</li>
       <li><a href="/support/web-image-sources.html">Image Sources for Web Projects</a> - Find free images released under Creative Commons licenses</li>
       <li><a href="/support/index.php#editors">Recommended Text Editors</a> for Web Developers (most are free)</li>
       <li><a href="/support/css-selectors-cheatsheet.html">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
       <li><a href="https://devtuts.butlerccwebdev.net/testserver/index.php">Getting Started Guide</a> for installing and configuring a local test server with XAMPP and MAMP</li>
       <li><a href="/support/portable-apps.html">Working with portable apps on a USB drive</a> - What they are, where to get them, and related information</li>
-    </ul>
+    </ul> -->
 
 <?php
 include ('footer.php')
@@ -113,13 +128,12 @@ include ('footer.php')
   <footer class="page-footer">
     <p>Generously Provided by<br>
       <a href="https://www.butlercc.edu/"><img src="/images/Butler_Horiz_206a.png" width="206" height="64" alt="Butler Community College"></a></p>
-  </footer>
-</div>! end of #container  -->
+  </footer> -->
+<!-- </div>! end of #container   -->
 <!-- Javascript at the bottom for fast page loading --> 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
 
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
 <script>!window.jQuery && document.write('<script src="/js/jquery-1.4.2.min.js"><\/script>')</script> 
 <script src="/js/plugins.js"></script> 
-<script src="/js/script.js"></script>  -->
+<script src="/js/script.js"></script> 
