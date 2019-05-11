@@ -1,5 +1,5 @@
 <?php 
-include('view/header.php');
+include('C:\Users\Jacob\Desktop\School\Spring_2019\C++\Week_4\Tutorial_Revamp\Pattern_library\view\header.php');
 include('view/home.php');
 ?>
 
@@ -8,7 +8,7 @@ include('view/home.php');
 </main>
 
 <?php 
-include('view/footer.php');
+include('C:\Users\Jacob\Desktop\School\Spring_2019\C++\Week_4\Tutorial_Revamp\Pattern_library\view\footer.php');
 ?>
 
 

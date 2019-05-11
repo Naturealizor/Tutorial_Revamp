@@ -1,5 +1,5 @@
 <?php
-include ('header.php')
+include ('C:\Users\Jacob\Desktop\School\Spring_2019\C++\Week_4\Tutorial_Revamp\Pattern_library\view\header.php')
 ?>
 
 <!-- <!doctype html>
@@ -121,7 +121,7 @@ include ('header.php')
     </ul> -->
 
 <?php
-include ('footer.php')
+include ('C:\Users\Jacob\Desktop\School\Spring_2019\C++\Week_4\Tutorial_Revamp\Pattern_library\view\footer.php')
 ?>
     <!-- <p>&copy; 2010&#8211;2019, <a href="https://butlerccwebdev.net/">ButlerCC Webhosting</a>. All rights reserved.</p>
   </div>
