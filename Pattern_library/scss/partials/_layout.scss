@@ -40,14 +40,28 @@ main {
     flex-wrap: wrap;
     // display: inline-flex;
     @include MQ(phone) {
-        width: auto;
+        width: 70%;
         justify-content: center;
-        margin: 10px;
+        margin-left: 10px;
     }
 }
 
 .main_content_stack {
     text-align: left;
+}
+.card_container {
+    border: solid;
+    margin-bottom: 15px;
+    .card_header {
+        border-bottom: solid;
+        // margin-left: 5px;
+        padding-left: 8px;
+        padding-bottom: 5px;
+    }
+    .card_desc {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
 }
 .sidenav {
     width: 20%;
@@ -57,12 +71,23 @@ main {
     left: 10px;
     overflow-x: hidden;
     flex-direction: row;
+    @include MQ(phone){
+        width: auto;
+        // z-index: 1;
+        top: 30%;
+        justify-content: center;
+        position: relative;
+        
+    }
 }
 .sidenav a {
     padding: 6px 8px 6px 15px;
     text-decoration: none;
     font-size: 20px;
     display: block;
+    @include MQ(phone) {
+
+    }
 }
 textarea {
     width: auto;
