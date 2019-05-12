@@ -1,12 +1,78 @@
 body {
     font-size: 1em;
-    line-height: 1em;
+    display: flex;
+    line-height: 1.5em;
+    flex-direction: column;
+    @include MQ(phone) {
+        font-size: 180%;
+    }
+    @include MQ(tablet) {
+        font-size: 130%;
+        // width: 92%;
+    }
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1em;
+}
+#branding {
+    border-bottom: solid black;
+    width: 100%;
+    @include MQ(phone) {
+        font-size: 80%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    @include MQ(tablet) {
+
+    }
 }
 main {
+    width: 70%;
     box-sizing: border-box;
-}
-.main_content_stack {
-    text-align: left;
+    flex-direction: row;
     margin-left: 20%;
+    flex-wrap: wrap;
+    // display: inline-flex;
+    @include MQ(phone) {
+        width: auto;
+        justify-content: center;
+        margin: 10px;
+    }
 }
 
+.main_content_stack {
+    text-align: left;
+}
+.sidenav {
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 30%;
+    left: 10px;
+    overflow-x: hidden;
+    flex-direction: row;
+}
+.sidenav a {
+    padding: 6px 8px 6px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+textarea {
+    width: auto;
+    // margin-right: 20%;
+    @include MQ(phone) {
+        width: 320px;
+        font-size: 1em;
+        word-wrap: normal;
+    }
+    @include MQ(tablet) {
+        width: 100%;
+    }
+}

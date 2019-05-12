@@ -1,0 +1,13 @@
+
+// Media Queries Mixins, assigns $canvas to the given variable 
+@mixin MQ($canvas) {
+	@if $canvas == phone {
+		@media only screen and (max-width: $mediaMobile) {@content;}
+	}
+	@else if $canvas == tablet {
+		@media only screen and (min-width: $mediaMobile + 1) and (max-width: $mediaTablet) {@content;}
+	}
+	@else if $canvas == desktop {
+		@media only screen and (min-width: $mediaDesktop) {@content;}
+	}
+}
