@@ -12,7 +12,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-19389139-1');
     </script>
-    <title>HTML Tag Tutorial</title>
+    <title>HTML Elements</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,5 +37,67 @@
             <a href="">#4</a>
             <a href="">#5</a>
         </div>
+        <main>
+            <div class="main_content_stack">
+                <div class="main_content_wrapper">
+                <h1>Cards, Buttons, and More</h1>
+                <p>There are quite a few little elements that can really add quality to a page. Custom buttons that match your theme, cards to display infomation in a visually pleaseing way, and so many more bits and bobs can be found in this tutorial.</p>
+                <h2>HTML element library</h2>
+
+                    <div class="card_container">
+                        <h3 class="card_header">Cards:</h3>
+                        <p class="card_desc">Cards are a great way to display infomation in a nice and neat format. Works really well with contact cards, pictures with descriptions, and much more. </p>
+                        <!-- Cards inside the main content card -->
+                        <div class="flex_container">
+                            <div class="inner_card_container">
+                                <h4 class="inner_card_header">Jake Smith</h4>
+                                <p class="inner_card_desc">Put the contact info here.
+                                </p>
+                            </div>
+                            
+                            <div class="inner_card_container">
+                                <h4 class="inner_card_header">Jake Smith</h4>
+                                <p class="inner_card_desc">Put the contact info here.
+                                </p>
+                            </div>
+
+                            <div class="inner_card_container">
+                                <h4 class="inner_card_header">Jake Smith</h4>
+                                <p class="inner_card_desc">Put the contact info here.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <textarea rows="15" cols="40">
+HTML
+&lt;div class="card">
+    &lt;div class="card_container">
+    &lt;h4 class="card_header">Jake Smith</h4>
+    &lt;p class="card_desc">Put the contact info here.&lt;/p>
+    &lt;/div>
+&lt;/div>
+
+CSS
+.card_container {
+    border: solid;
+    width: 40%;
+}
+.card_header {
+    border-bottom: solid;
+}
+                    </textarea>
+
+                    <div class="card_container">
+                        <h3 class="card_header">Buttons:</h3>
+                        <p class="card_desc">Buttons are a very useful object and can be used in several cases. It really just depends on what you're needing to do.
+                        </p>
+                        <a href="" class="button_simple">Button</a>
+                        <p>In essence, a button is an object the user can click on to preform an action. Going back a page, submitting a form, or whatever is needed.</p>
+                        <a href="" class="button_border">Button</a> 
+                    </div>
+                </div>
+            </div>
+        </main>
 	</body>
 </html>
