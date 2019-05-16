@@ -41,7 +41,6 @@ main {
     flex-direction: row;
     margin-left: 20%;
     flex-wrap: wrap;
-    // display: inline-flex;
     @include MQ(phone) {
         width: 70%;
         justify-content: center;
@@ -62,12 +61,9 @@ main {
     @include MQ(phone){
         font-size: .7em;
         width: 90vw;
-        // flex-direction: column;
     }
-    // @include
     .card_header {
         border-bottom: solid;
-        // margin-left: 5px;
         padding-left: 8px;
         padding-bottom: 15px;
         padding-top: 15px;
@@ -110,11 +106,9 @@ main {
         width: 25%;
         @include MQ(phone){
             font-size: .5em;
-            // flex-direction: column;
         }
     }
     .inner_card_header {
-        // grid-template-columns: 30% 30% 30%;
         border-bottom: solid #555;
         background-color: $colorGoldish;
         color: rgb(243, 243, 243);
@@ -130,6 +124,188 @@ main {
         color: $colorBackground;
         margin: 0;
         padding: 10px;
+        text-align: center;
+    }
+    .flex_container_column{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        @include MQ(phone){
+            flex-direction: column;
+            // width: 160vw;
+            text-align: center;
+            // margin-left: 25%;
+        }
+        @include MQ(tablet){
+            flex-direction: column;
+            // width: 160vw;
+            text-align: center;
+            // margin-left: 15%;
+        }
+        
+    }
+    .inner_card_container_column{
+        
+        border: solid;
+        margin: 3%;
+        width: 50%;
+        margin-left: 25%;
+        @include MQ(phone){
+            font-size: .5em;
+            // flex-direction: column;
+        }
+    }
+    .inner_card_header_column {
+        border-bottom: solid #555;
+        background-color: $colorGoldish;
+        color: rgb(243, 243, 243);
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        @include MQ(phone){
+            font-size: 1.3em;
+        }
+    }
+    .inner_card_desc_column {
+        margin: 0;
+        padding: 10px;
+        background-color: $colorPurp;
+        color: $colorBackground;
+        text-align: center;
+        @include MQ(phone){
+            // font-size: .7em;
+        }
+    }
+    .grid_container {
+        @include grid(3, 2, 10px);
+    }
+    .inner_card_container_grid {
+        border: solid;
+        margin: 3%;
+        width: 50%;
+        margin-left: 25%;
+        @include MQ(phone){
+            font-size: .5em;
+            // flex-direction: column;
+        }
+    }
+    .inner_card_header_grid {
+        border-bottom: solid #555;
+        background-color: $colorGoldish;
+        color: rgb(243, 243, 243);
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        @include MQ(phone){
+            font-size: 1.3em;
+        }
+    }
+    .inner_card_desc_grid {
+        margin: 0;
+        padding: 10px;
+        background-color: $colorPurp;
+        color: $colorBackground;
+        text-align: center;
+        @include MQ(phone){
+            // font-size: .7em;
+        }
+    }
+    .grid_container_mixed {
+        display: grid;
+        grid-gap: 10px;
+    }
+    .inner_card_container_grid2 {
+        grid-column: 1 / 4;
+        border: solid;
+        margin: 3%;
+        width: 50%;
+        margin-left: 25%;
+        @include MQ(phone){
+            font-size: .5em;
+    }
+    }
+    .inner_card_header_grid2 {
+        border-bottom: solid #555;
+        background-color: $colorGoldish;
+        color: rgb(243, 243, 243);
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        @include MQ(phone){
+            font-size: 1.3em;
+        }
+    }
+    .inner_card_desc_grid2 {
+        margin: 0;
+        padding: 10px;
+        background-color: $colorPurp;
+        color: $colorBackground;
+        text-align: center;
+        @include MQ(phone){
+            // font-size: .7em;
+        }
+    }
+    .inner_card_container_grid3 {
+        grid-column: 1 / 2;
+        border: solid;
+        margin: 3%;
+        width: 50%;
+        margin-left: 25%;
+        @include MQ(phone){
+            font-size: .5em;
+    }
+    }
+    .inner_card_header_grid3 {
+        border-bottom: solid #555;
+        background-color: $colorGoldish;
+        color: rgb(243, 243, 243);
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        @include MQ(phone){
+            font-size: 1.3em;
+        }
+    }
+    .inner_card_desc_grid3 {
+        margin: 0;
+        padding: 10px;
+        background-color: $colorPurp;
+        color: $colorBackground;
+        text-align: center;
+        @include MQ(phone){
+            // font-size: .7em;
+        }
+    }
+    .inner_card_container_grid4 {
+        grid-column: 3 / span 2;
+        border: solid;
+        margin: 3%;
+        width: 50%;
+        margin-left: 25%;
+        @include MQ(phone){
+            font-size: .5em;
+    }
+    }
+    .inner_card_header_grid4 {
+        border-bottom: solid #555;
+        background-color: $colorGoldish;
+        color: rgb(243, 243, 243);
+        margin: 0;
+        padding-top: 10px;
+        text-align: center;
+        @include MQ(phone){
+            font-size: 1.3em;
+        }
+    }
+    .inner_card_desc_grid4 {
+        margin: 0;
+        padding: 10px;
+        background-color: $colorPurp;
+        color: $colorBackground;
+        text-align: center;
+        @include MQ(phone){
+            // font-size: .7em;
+        }
     }
     .button_simple {
         margin-left: 45%;
@@ -153,7 +329,7 @@ main {
     left: 10px;
     overflow-x: hidden;
     flex-direction: row;
-    // border: 1px solid #555;
+    border: 1px solid #555;
     background-color: $colorGoldish;
     @include MQ(phone){
         width: auto;
@@ -175,7 +351,7 @@ main {
     color: white;
     font-size: 20px;
     display: block;
-    // border-bottom: 1px solid #555;
+    border-bottom: 1px solid #555;
     text-align: center;
     padding: 15px;
     justify-content: space-around;

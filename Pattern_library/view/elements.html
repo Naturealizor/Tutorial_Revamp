@@ -22,24 +22,25 @@
     <body>
         <header>
                 <div id="branding">
-                    <h1>HTML and CSS Tutorial </h1>
+                    <h1 id="tag1">HTML and CSS Tutorial </h1>
                     <p>Created by Jacob Jordan</p>
                 </div>
         </header>
         <!-- add CSS -->
         <div class="sidenav">
-            <a href="">#1</a>
-            <a href="">#2</a>
-            <a href="">#3</a>
-            <a href="">#4</a>
-            <a href="">#5</a>
+            <a href="#tag1">Top of page</a>
+            <a href="#tag2">Cards and Buttons</a>
+            <a href="#tag3">Flexbox</a>
+            <a href="#tag4">CSS Grid</a>
+            <a href="template.html">Page Template</a>
         </div>
         <main>
             <div class="main_content_stack">
                 <div class="main_content_wrapper">
                 <h1>Cards, Buttons, and More</h1>
                 <p>There are quite a few little elements that can really add quality to a page. Custom buttons that match your theme, cards to display infomation in a visually pleaseing way, and so many more bits and bobs can be found in this tutorial.</p>
-                <h2>HTML element library</h2>
+                <p>Also, Flexbox and CSS Grid are shown below. These are powerful tools for any web developer to pick up in order to make your web page more responisve, which is a key skill to have in any industry.</p>
+                <h2 id="tag2">HTML element library</h2>
 
                     <div class="card_container">
                         <h3 class="card_header">Cards</h3>
@@ -66,22 +67,25 @@
                         </div>
                         
                     </div>
-                    <textarea rows="18" cols="45">
-HTML
-&lt;div class="card">
-    &lt;div class="card_container">
+                    <textarea rows="20" cols="55">
+HTML:
+&lt;div class="card_container">
     &lt;h4 class="card_header">Jake Smith</h4>
     &lt;p class="card_desc">Put the contact info here.&lt;/p>
-    &lt;/div>
 &lt;/div>
 
-CSS
+
+CSS:
 .card_container {
     border: solid;
     width: 40%;
 }
 .card_header {
     border-bottom: solid;
+    text-align: center;
+}
+.card_desc {
+    text-align: center;
 }
                     </textarea>
 
@@ -90,11 +94,175 @@ CSS
                         <p class="card_desc">Buttons are a very useful object and can be used in several cases. It really just depends on what you're needing to do.
                         </p>
                         <a href="" class="button_simple">Button</a>
-                        <p>In essence, a button is an object the user can click on to preform an action. Going back a page, submitting a form, or whatever is needed.</p>
+                        <p class="card_desc">In essence, a button is an object the user can click on to preform an action. Going back a page, submitting a form, or whatever is needed.</p>
                         <a href="" class="button_border">Button</a> 
                     </div>
+
+                    <h1 id="tag3">Flexbox</h1>
+                    <div class="card_container">
+                    <h3 class="card_header">Flexbox</h3>
+                    <p class="card_desc">Flexbox is an awesome tool CSS offers that makes creating a responive web page quick and simple. </p>
+                    <!-- Cards inside the main content card -->
+                    <div class="flex_container">
+                        <div class="inner_card_container">
+                            <h4 class="inner_card_header">Jake Smith</h4>
+                            <p class="inner_card_desc">Put the contact info here
+                            </p>
+                        </div>
+
+                        <div class="inner_card_container">
+                                <h4 class="inner_card_header">Jake Smith</h4>
+                                <p class="inner_card_desc">Put the contact info here
+                                </p>
+                        </div>
+
+                        <div class="inner_card_container">
+                            <h4 class="inner_card_header">Jake Smith</h4>
+                            <p class="inner_card_desc">Put the contact info here
+                            </p>
+                        </div>
+                            
+                    </div>
+                    <p class="card_desc">Here's an example of the same cards in a column. If your screen is small enough both the top and bottom examples will be in column format. This gives you a small example of how Flexbox can be used to create responsiveness.</p>
+                    <div class="flex_container_column">
+                        <div class="inner_card_container_column">
+                            <h4 class="inner_card_header_column">Jake Smith</h4>
+                            <p class="inner_card_desc_column">Put the contact info here
+                            </p>
+                        </div>
+
+                        <div class="inner_card_container_column">
+                                <h4 class="inner_card_header_column">Jake Smith</h4>
+                                <p class="inner_card_desc_column">Put the contact info here
+                                </p>
+                        </div>
+
+                        <div class="inner_card_container_column">
+                            <h4 class="inner_card_header_column">Jake Smith</h4>
+                            <p class="inner_card_desc_column">Put the contact info here
+                            </p>
+                        </div>
+                            
+                    </div>
                 </div>
+                <textarea rows="20" cols="55">
+HTML:
+&lt;div class="flex_container">
+    &lt;h4 class="card_header">Jake Smith&lt;/h4>
+    &lt;p class="card_desc">Put the contact info here.&lt;/p>
+&lt;/div>
+
+
+CSS:
+.flex_container {
+    display: flex
+    flex-direction: row/column;
+}
+.card_header {
+    border: solid;
+}
+.card_desc {
+    border-bottom: solid;
+}
+                </textarea>
+                <h1 id="tag4">CSS Grid</h1>
+                <div class="card_container">
+                <h3 class="card_header">Flexbox</h3>
+                <p class="card_desc">CSS Grid allows you to set up a literal grid in the area specified and place each individual item exactly where you want it to be. </p>
+                <p class="card_desc">This first example looks an awful lot like Flexbox, but is actually set up as a grid with 1 column and 3 rows. </p>
+                <!-- Cards inside the main content card -->
+                <div class="grid_container">
+                    <div class="inner_card_container_grid">
+                        <h4 class="inner_card_header_grid">Jake Smith</h4>
+                        <p class="inner_card_desc_grid">Put the contact info here
+                        </p>
+                    </div>
+
+                    <div class="inner_card_container_grid">
+                            <h4 class="inner_card_header_grid">Jake Smith</h4>
+                            <p class="inner_card_desc_grid">Put the contact info here
+                            </p>
+                    </div>
+
+                    <div class="inner_card_container_grid">
+                        <h4 class="inner_card_header_grid">Jake Smith</h4>
+                        <p class="inner_card_desc_grid">Put the contact info here
+                        </p>
+                    </div>
+                </div>
+                <p class="card_desc">Next, we'll try and mix it up a little.</p>
+                <div class="grid_container_mixed">
+                    <div class="inner_card_container_grid2">
+                        <h4 class="inner_card_header_grid">Jake Smith</h4>
+                        <p class="inner_card_desc_grid">Put the contact info here
+                        </p>
+                    </div>
+
+                    <div class="inner_card_container_grid3">
+                        <h4 class="inner_card_header_grid">Jake Smith</h4>
+                        <p class="inner_card_desc_grid">Put the contact info here
+                        </p>
+                    </div>
+
+                    <div class="inner_card_container_grid4">
+                        <h4 class="inner_card_header_grid">Jake Smith</h4>
+                        <p class="inner_card_desc_grid">Put the contact info here
+                        </p>
+                    </div>
+                </div>
+                <p class="card_desc">In this example I set up a 2 x 4 grid, setting the first card to the middle of the first row, and the bottom two get to the same row, but different columns. The last card is also spanning 2 columns</p>
+                <p class="card_desc">The only factor really stopping you from making as many rows and columns as you want is the size of the items in the grid. However, once you have the grid set up you have quite a bit of freedom as far as where to place something.</p>
             </div>
+            <textarea rows="40" cols="90">
+HTML: 
+&lt;div class="grid_container1">
+    &lt;div class="card1">
+        &lt;h4 class="card_header1">Jake Smith&lt;/h4>
+        &lt;p class="card_desc1">Put the contact info here.&lt;/p>
+    &lt;/div>
+    &lt;div class="grid_container2">
+        &lt;h4 class="card_header2">Jake Smith&lt;/h4>
+        &lt;p class="card_desc2">Put the contact info here.&lt;/p>
+    &lt;/div>
+    &lt;div class="grid_container3">
+        &lt;h4 class="card_header3">Jake Smith&lt;/h4>
+        &lt;p class="card_desc3">Put the contact info here.&lt;/p>
+    &lt;/div>
+&lt;/div>
+
+
+CSS:
+.grid_container1 {
+    display: grid;
+}
+.card1 {
+    grid-column: 1 / 4; (This sets card1 to start in column 1 and span to column 4)
+}
+.card_header1 {
+    border: solid;
+}
+.card_desc1 {
+    border-bottom: solid;
+}
+.card2 {
+    grid-column: 1 / 2; (This sets card2 to start in column 1 and span to column 2)
+}
+.card_header2 {
+    border: solid;
+}
+.card_desc2 {
+    border-bottom: solid;
+}
+.card3 {
+    grid-column: 3 / span 2; (This sets card3 to start in column 3 and span 2 columns)
+}
+.card_header3 {
+    border: solid;
+}
+.card_desc3 {
+    border-bottom: solid;
+}
+            </textarea>
         </main>
     </body>
     <footer class="page_footer">
