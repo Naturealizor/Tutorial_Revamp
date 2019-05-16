@@ -21,7 +21,7 @@ h3 {
     font-size: 1em;
 }
 #branding {
-    border-bottom: solid black;
+    border-bottom: solid $colorPurp 20px;
     width: 100%;
     @include MQ(phone) {
         font-size: 80%;

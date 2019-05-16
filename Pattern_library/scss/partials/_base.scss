@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+	font: 100%;
+	line-height: 1em;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	text-decoration-color: $colorPurp;
+    font-family: $body_font;
+}
+h1, h2, h3 {
+	color: $colorPurp;
+    font-family: $header_font;
+}
