@@ -1,0 +1,23 @@
+// Default color scheme values
+// ====================================================================
+$color1: #43125F; // Purple
+$color2: #CCC; //Light Gray
+$color3: #666; //Medium Gray
+$color4: #333; //Dark gray
+$color5: #000; //Black
+$color6: #fff; //White
+
+// Default font stack values
+$body-font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$caption-font: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+$header-font: 'SansationRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$tagline-font: 'SansationItalic', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Media Query Breakpoint variables
+// ====================================================================
+$M: 30.0625em; // 481px wide with 16px body font
+$L: 48.0625em; // 769px wide with 16px body font
+
+// Default value for border-radius
+// ====================================================================
+$border-radius: 5px;

@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  color: $color4;
+  font-family: $body-font;
+  font-size: 1rem;
+  line-height: 1.5;
+  
+}
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+h2, h3, h4, h5, h6 { 
+  color: $color1;
+}

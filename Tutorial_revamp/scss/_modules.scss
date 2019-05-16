@@ -1,0 +1,171 @@
+header[role="banner"] {
+	
+  .site-id {
+    margin-left: 1%;
+  }
+  .logo {
+    font-family: $header-font;
+    font-size: .5rem;
+    margin-bottom: 2rem;
+    @include MQ(Mplus) {
+        font-size: 2rem;
+    }
+    @include MQ(Lplus) {
+        font-size: 3rem;
+    }
+    a {
+      color: $color1;
+      text-decoration: none;
+    }
+    & a:link, & a:visited {
+//    color: #666;
+    
+    }
+  }
+  .m-tagline {
+	color: $color1;
+	font-family: $tagline-font;
+    font-style: italic;
+	font-size: .875rem;
+	margin: -.5rem 0 1rem 4rem;
+//	@extend %text-shadow;
+	@include MQ(Mplus) {
+      font-size: 1rem;
+		
+	}
+	@include MQ(Lplus) {
+      font-size: 2rem;
+	}
+  }
+}
+
+.l-main-menu {
+  background-color: $color1;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .l-primary-nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    @include MQ(Mplus) {
+      width: 96%;
+      margin: auto;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+    }
+  }
+  li {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid $color2;
+    margin: 10px 1rem;
+    @include MQ(Mplus) {
+      align-content: flex-start;
+      border: none;
+      width: auto;
+    }
+    @include MQ(Lplus) {
+
+      }
+  }
+
+  a {
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 2px;
+    @include MQ(Mplus) {
+      width: auto;
+    }
+    &:link, &:visited {
+      color: $color2;
+      display: inline-block;
+      @include MQ(Mplus) {
+      }
+      @include MQ(Lplus) {
+      }
+    }
+    &:hover, &:active {
+//      background-color: $color4;
+      color: $color6;
+      border-bottom: 2px solid;
+      padding-bottom: 0;
+    }
+  }
+}
+.table1 {
+    display: inline-grid;
+//    column-count: 4;
+    border: solid 2px;
+    .table1_header {
+        border: solid;
+        grid-column: 1 / 4;
+        grid-template-columns: 10%, 20%, 70%;
+    }
+    .table1_selector {
+        
+    }
+    .table1_syntax {
+        
+    }
+    .table1_desc {
+        
+    }
+    .table1 caption {
+        justify-content: flex-end;
+    }
+    
+}
+.article_header {
+    border-bottom: solid;
+    margin-bottom: 15px;
+}
+.article_header h1 {
+    font-size: 2em;
+    color: $color1;
+}
+.disclaimers {
+  font-size: .875rem;
+  border-top: 1px solid $color2;
+  img.cclicense {
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+}
+footer[role="contentinfo"] {
+	
+    position: sticky;
+//	@extend %rounded;
+  p {
+    font-size: .875rem;
+    margin: 0;
+    padding: .5rem 2rem;
+    &:nth-child(1) {
+      background-color: $color1;
+      color: $color6;
+	}
+    &:nth-last-child(1) {
+      border-top: 1px solid $color1;
+      text-align: center;
+    }
+  }
+  a {
+    color: $color2;
+  }
+}
+//.article-header {
+//  border-bottom: 1px solid $color2;
+//  margin-bottom: 1rem;
+//  p {
+//    font-size: .875rem;
+//  }
+//}
+.notes {
+  background-color: $color2;
+//  margin: 3%;
+  padding: 1rem;
+  border: 1px solid $color4;
+}

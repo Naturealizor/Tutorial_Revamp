@@ -1,0 +1,35 @@
+body {
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  @include MQ(Lplus) {
+    
+  }
+}
+header[role="banner"] {
+  flex: 0 0 auto;
+  @include MQ(Lplus) {
+
+  }
+}
+footer[role="contentinfo"] {
+  flex: 0 0 auto;
+  @include MQ(Lplus) {
+
+  }
+}
+main {
+  width: 98%;
+  margin: 0 auto 1rem;
+  flex: 1 1 auto;
+  @include MQ(Lplus) {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+
