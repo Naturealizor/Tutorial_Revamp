@@ -2,6 +2,7 @@
 $colorPurp: #43125F; // Butler Purple
 $colorBackground: #fff; //White
 $colorText: #000; //Black
+$colorGoldish: rgb(158, 121, 93); // Goldish 
 
 // Default fonts
 $body_font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,3 +15,6 @@ $mediaMobile: 360px;
 $mediaTablet: 960px;
 $mediaDesktop: 1200px;
 
+// Border variable
+$borderPurp: solid $colorPurp 40px;
+$borderSide: 1px solid #555;
