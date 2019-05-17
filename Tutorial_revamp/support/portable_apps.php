@@ -88,7 +88,7 @@ Note: Download portable version and extract   .zip file to temporary location. T
             <li>Open the xampp directory and double-click the <strong>xampp-control.exe</strong> file to run the XAMPP Control panel.</li>
             <li>Click <strong>Start</strong> button next to Apache to turn on your web server; <strong>Stop</strong> button to turn it off.</li>
             <li>Click <strong>Start</strong> button next to MySQL if you need database access; <strong>Stop</strong> button to turn it off. <br>
-              Refer to <a href="https://devtuts.butlerccwebdev.net/testserver/using-xampp-control-panel.html">Using XAMPP Control Panel tutorial</a> for detailed information on how to use the control panel.</li>
+              Refer to <a href="<?php echo $app_path . "support/testserver/"; ?>install-xampp.php">Using XAMPP Control Panel tutorial</a> for detailed information on how to use the control panel.</li>
             <li>After starting Apache, type <strong>http://localhost/</strong> in address bar of browser to load default index.html in <strong>htdocs</strong> folder.</li>
           </ol>
         </div>
@@ -126,7 +126,7 @@ Note: Download portable version and extract   .zip file to temporary location. T
         <li><strong>7-Zip</strong> - File archiver and compressor</li>
         <li><strong>WinMerge</strong> -  file comparison and merging</li>
       </ul>
-      
+      <?php include('../view/article-footer.php'); ?>
       </article>
     </main>
 <?php 

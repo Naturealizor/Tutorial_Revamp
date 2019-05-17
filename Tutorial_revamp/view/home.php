@@ -9,11 +9,8 @@
   <title>Tutorial Article Title:  Tutorials Landing Page</title>
   <link rel="stylesheet" href="../css/styles.css">
 <!-- ADD META TAGS FOR SEO -->
-  <meta name="description" content="Tutorial description paragraph for page content.">
+  <meta name="description" content="Tutorial list landing page">
   <meta name="author" content="Butlercc Webhosting">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- ADD ON EVERY TUTORIAL PAGE -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19389139-1">
@@ -30,7 +27,6 @@
 <?php include('view/header.php'); ?>
   <main>
    <article>
-    <p><a href="https://butlerccwebdev.net/index.php">Home</a> &gt; Tutorials and Resources</p>
       <h2>Web Developer Tutorials and Resources</h2>
       <p>Need help with general web development topics or help specifically related to your Butlercc WebHosting student account? Find it here.</p>
       <h3 id="tools">Browser Tools</h3>
@@ -110,7 +106,7 @@
         <li>JetBrains <a href="https://www.jetbrains.com/student/">PHPStorm</a> (free for students with .edu email address)</li>
         <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
       </ul>
-      <p>&copy; 2010&#8211;2019, <a href="https://butlerccwebdev.net/">ButlerCC Webhosting</a>. All rights reserved.</p>
+       <?php include('../view/article-footer.php'); ?>
     </article>
   </main>
 

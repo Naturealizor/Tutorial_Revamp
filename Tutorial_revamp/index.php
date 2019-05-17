@@ -13,9 +13,6 @@
 <!-- ADD META TAGS FOR SEO -->
   <meta name="description" content="Tutorial description paragraph for page content.">
   <meta name="author" content="Butlercc Webhosting">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- ADD ON EVERY TUTORIAL PAGE -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19389139-1"></script>
@@ -71,14 +68,14 @@
   <p>New tutorials and resources are continually added to the support section of this site. Some of our most popular resources are listed below. If you don't see what you need, check out the 
 
   <!--FIX LINK -->
-  <a href="<?php echo $app_path . "support/"; ?>index.php">full list of  tutorials and resources</a>.</p>
+  <a href="<?php echo $app_path . "view/"; ?>home.php">full list of  tutorials and resources</a>.</p>
    <ul>
     <li><a href="<?php echo $app_path . "support/"; ?>filezilla_tutorial.html">FileZilla Tutorial</a> - Install and use FileZilla to upload your web site</li>
     <li><a href="<?php echo $app_path . "support/"; ?>web-image-sources.html">Image Sources for Web Projects</a> - Find free images released under Creative Commons licenses</li>
     <li><a href="<?php echo $app_path . "support/"; ?>index.php#editors">Recommended Text Editors</a> for Web Developers (most are free)</li>
-    <li><a href="<?php echo $app_path . "support/"; ?>css-selectors-cheatsheet.html">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
+    <li><a href="<?php echo $app_path . "support/"; ?>css_cheatsheet.php">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
     <li><a href="https://devtuts.butlerccwebdev.net/testserver/index.php">Getting Started Guide</a> for installing and configuring a local test server with XAMPP and MAMP</li>
-    <li><a href="<?php echo $app_path . "support/"; ?>portable-apps.html">Working with portable apps on a USB drive</a> - What they are, where to get them, and related information</li>
+    <li><a href="<?php echo $app_path . "support/"; ?>portable_apps.php">Working with portable apps on a USB drive</a> - What they are, where to get them, and related information</li>
   </ul> 
   </article>
 </main> <!-- END OF MAIN ELEMENT -->

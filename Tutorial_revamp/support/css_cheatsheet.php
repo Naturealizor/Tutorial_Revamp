@@ -9,11 +9,8 @@
   <title>Tutorial Article Title:  CSS Selectors Cheat Sheet</title>
   <link rel="stylesheet" href="../css/styles.css">
 <!-- ADD META TAGS FOR SEO -->
-  <meta name="description" content="Tutorial description paragraph for page content.">
+  <meta name="description" content="CSS cheatsheet.">
   <meta name="author" content="Butlercc Webhosting">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- ADD ON EVERY TUTORIAL PAGE -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19389139-1">
@@ -45,47 +42,29 @@
   <h3>Element selectors</h3>
   <p>Element selectors apply  properties globally to all specified elements on the page, and are the most common selectors used.</p>
   
-  <div class="table1">
-     <caption>
+ <table>
+    <caption>
       Syntax for Element selectors
       </caption>
-      
-      <div class="table1_header">
-          <p>Selector</p>
-          <p>Syntax</p>
-          <p>Description</p>
-      </div>
-      <div class="table1_selector">
-          <p>Element</p>
-          <p>Grouped</p>
-      </div>
-      <div class="table1_syntax">
-          <p></p>
-          <p></p>
-      </div>
-      <div class="table1_desc">
-          <p></p>
-          <p></p>
-      </div>
-<!--
+    <tr>
       <th scope="col">Selector</th>
       <th scope="col">Syntax</th>
       <th scope="col">Description</th>
--->
-      
-    
+      </tr>
+    <tr>
       <td>Element</td>
       <td><strong>h2</strong></td>
       <td>selects all h2 elements on the page<br>
         The rule <strong>h2 {text-align: center;}</strong>  would center all text marked up with <strong>&lt;h2&gt;</strong> elements</td>
-      
-    
+      </tr>
+    <tr>
       <td>Grouped</td>
       <td><strong>h1,&nbsp;h2,&nbsp;h3</strong></td>
       <td>selects all h1, h2, and h3 elements on the page<br>
         The rule <strong>h1, h2, h3 {margin-bottom: .5em;}</strong> would set the bottom margin for all text marked up with <strong>&lt;h1&gt;</strong>, <strong>&lt;h2&gt;</strong>, and <strong>&lt;h3&gt;</strong> elements</td>
-      
- </div>
+      </tr>
+  </table>
+
   <h3>Class and ID selectors</h3>
   <p>Class and ID selectors make it easy to target and apply properties to one or several particular elements without affecting all the others. Classes allow you to classify elements into conceptual groups. Two or more elements can belong to the same class on a page. IDs assign a unique identifier to an element, and <em>each id value must be used only once  on a page</em>. </p>
   <table>
@@ -441,7 +420,9 @@ blockquote&gt;p::after {
     <li><a href="http://www.adobe.com/devnet/dreamweaver/articles/css-selectors-pt1.html">Getting to know your CSS selectors Part 1: CSS2.1 and attribute selectors</a></li>
     <li> <a href="http://css-tricks.com/attribute-selectors/">The Skinny on CSS Attribute Selectors</a></li>
   </ul>
+      <?php include('../view/article-footer.php'); ?>
       </article>
 </main>
+    <?php include('../view/footer.php'); ?>
 </body>
 </html>

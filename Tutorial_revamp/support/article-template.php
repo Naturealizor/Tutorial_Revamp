@@ -13,7 +13,7 @@ require_once('../util/main.php');
   <!-- Figure out if I want to keep the font-awesome stuff -->
   <link rel="stylesheet" href="<?php echo $app_path . "font-awesome-4.2.0/" . "css/"; ?>font-awesome.css">
 <!-- ADD META TAGS FOR SEO -->
-  <meta name="description" content="Tutorial description paragraph for page content.">
+  <meta name="description" content="Template page for tutorials.">
   <meta name="author" content="Butlercc Webhosting">
   <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="/favicon.ico">
