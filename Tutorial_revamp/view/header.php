@@ -5,8 +5,8 @@
   </div>
   <nav class="l-main-menu">
     <ul class="l-primary-nav">
-      <li><a href="<?php echo $app_path; ?>">Home</a></li>
-      <li><a href="<?php echo $app_path . "support/"; ?>article-template.php">Tutorials</a></li>
+      <li><a href="<?php echo $app_path; ?>index.php">Home</a></li>
+      <li><a href="<?php echo $app_path . "view/"; ?>home.php">Tutorials</a></li>
       <li><a href="<?php echo $app_path . "resources/"; ?>">Resources</a></li>
       <li><a href="https://butlerccwebdev.net:2083/?login_theme=cpanel">cPanel Login</a></li>
     </ul>

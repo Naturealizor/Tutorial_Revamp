@@ -62,7 +62,7 @@
 
   <!--FIX LINK -->
   <h3>
-  <a href="<?php echo $app_path . "support/"; ?>index.php">Web Developer Tutorials and Resources</a>
+  <a href="<?php echo $app_path . "view/"; ?>home.php">Web Developer Tutorials and Resources</a>
   </h3>
 
   <p>New tutorials and resources are continually added to the support section of this site. Some of our most popular resources are listed below. If you don't see what you need, check out the 
@@ -80,22 +80,8 @@
   </article>
 </main> <!-- END OF MAIN ELEMENT -->
 
-<!-- ADD PHP INCLUDE FOR PAGE FOOTER -->
 <?php include('view/footer.php'); ?>
 <!-- ADD SCRIPTS AS NEEDED -->
 
 </body>
 </html>
-
-
-<!-- 
-	1. Bring in the rest of the pages from the webdev site.
-	2. Figure out a few more additions
-		i.e. colors for the logo
-			 cards 
-			 things for zachs site
-	3. Figure out how to structure the scss files
-	4. Go through each file and check on the heirarchy, rename anything if needed
-	5. Start working on the variables for any re occuring items 
-
- -->

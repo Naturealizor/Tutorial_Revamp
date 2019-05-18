@@ -140,6 +140,15 @@ tr:nth-child(odd) {
     margin-bottom: 4px;
   }
 }
+
+
+#grid_table {
+//    display: grid;
+    @include grid($rowz, $colz, $gap);
+    caption {
+        justify-content: flex-end;
+    }
+}
 footer[role="contentinfo"] {
 	
     position: sticky;

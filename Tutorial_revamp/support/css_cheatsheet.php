@@ -181,7 +181,7 @@
   </table>
   <h3>Pseudo-class selectors that apply to siblings</h3>
   <p>The following six sibling pseudo-class selectors apply to elements that have the same parent, and are at the same level of the document hierarchy.</p>
-  <table>
+  <table id="grid_table">
     <caption>
       Syntax for sibling Pseudo-class selectors
       </caption>

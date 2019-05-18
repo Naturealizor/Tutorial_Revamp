@@ -6,14 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Change on each page -->
-  <title>Tutorial Article Title:  CSS Selectors Cheat Sheet</title>
+  <title>Working with Portable Apps</title>
   <link rel="stylesheet" href="../css/styles.css">
 <!-- ADD META TAGS FOR SEO -->
-  <meta name="description" content="Tutorial description paragraph for page content.">
+  <meta name="description" content="Portable Apps for web development.">
   <meta name="author" content="Butlercc Webhosting">
-  <!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- ADD ON EVERY TUTORIAL PAGE -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19389139-1">

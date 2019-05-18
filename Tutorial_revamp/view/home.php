@@ -32,17 +32,17 @@
       <h3 id="tools">Browser Tools</h3>
       <ul>
         <li><a href="/support/css-debugging.html">CSS Debugging Tools and Resources</a> - How to access and use browser integrated tools and addons essential to debugging HTML and CSS</li>
-        <li><a href="/support/browser-addons-extensions.html">Useful Browser Add-ons and Extensions</a> - Essential Chrome, Firefox, and Opera add-ons and extensions for web developers. Includes popular Firefox add-ons FireFTP, HeadingsMap, and Web Developer Toolbar.</li>
-        <li><a href="/support/portable-apps.html">Working with portable apps on a USB drive</a> - What they are, where to get them, and related information</li>
+        <li><a href="<?php echo $app_path . "support/"; ?>browser_addons.php">Useful Browser Add-ons and Extensions</a> - Essential Chrome, Firefox, and Opera add-ons and extensions for web developers. Includes popular Firefox add-ons FireFTP, HeadingsMap, and Web Developer Toolbar.</li>
+        <li><a href="<?php echo $app_path . "support/"; ?>portable_apps.php">Working with portable apps on a USB drive</a> - What they are, where to get them, and related information</li>
       </ul>
       <h3 id="cheatsheets">Cheat Sheets</h3>
       <ul>
-        <li><a href="/support/css-selectors-cheatsheet.html">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
+        <li><a href="<?php echo $app_path . "support/"; ?>css_cheatsheet.php">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
       </ul>
       <h3 id="css">CSS</h3>
       <ul>
         <li><a href="/support/css-debugging.html">CSS Debugging Tools and Resources</a> - How to access and use browser integrated tools and addons essential to debugging HTML and CSS</li>
-        <li><a href="/support/css-selectors-cheatsheet.html">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
+        <li><a href="<?php echo $app_path . "support/"; ?>css_cheatsheet.php">CSS Selectors Cheat Sheet</a> - Most common CSS selectors, including those new in CSS3</li>
         <li><a href="/support/webfonts.html">Web Fonts Tutorial</a> - Use your own hosted web fonts with @font-face or link to Google web fonts</li>
       </ul>
       <h3 id="ftp">FTP </h3>
@@ -53,7 +53,7 @@
       </ul>
       <h3 id="forms">Forms</h3>
       <ul>
-        <li><a href="/support/form-processing.html">Processing Form Data</a> - Use the formmail.pl script to send user data gathered from a form to your email account</li>
+        <li><a href="<?php echo $app_path . "support/"; ?>processing_forms.php">Processing Form Data</a> - Use the formmail.pl script to send user data gathered from a form to your email account</li>
       </ul>
       <h3 id="graphics">Graphics</h3>
       <ul>
